@@ -960,7 +960,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px #ffffff;
+			border: none 0px #ffffff;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -982,11 +982,11 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: solid 2px #ffffff;
+			border-bottom: none 2px #ffffff;
 		}
 
 		table tfoot {
-			border-top: solid 2px #ffffff;
+			border-top: none 2px #ffffff;
 		}
 
 		table.alt {
@@ -994,17 +994,17 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px #ffffff;
+				border: none 1px #ffffff;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
 
 				table.alt tbody tr td:first-child {
-					border-left-width: 1px;
+					border-left-width: 0px;
 				}
 
 			table.alt tbody tr:first-child td {
-				border-top-width: 1px;
+				border-top-width: 0px;
 			}
 
 			table.alt thead {
